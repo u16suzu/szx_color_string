@@ -1,5 +1,29 @@
 # SzxColorString
 
+## Example
+
+```ruby
+puts "black".black
+puts "red".red
+puts "blue".blue
+puts "magenta".magenta
+puts "green".green
+puts "cyan".cyan
+puts "yellow".yellow
+puts "while".while
+
+puts "bold".bold
+puts "underscore".underscore
+puts "blink".blink
+
+puts "hello".red.bold
+puts "hello".red.bold.yellow_background
+puts "hello".red.underscore.blue_background
+puts "hello".red.green_background
+```
+
+<img src="https://github.com/u16suzu/szx_color_string/blob/master/example.png" width="80">
+
 ## Installation
 
 Add this line to your application's Gemfile:
