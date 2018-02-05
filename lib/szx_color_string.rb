@@ -23,7 +23,7 @@ module SzxColorString
     def blue_background;   "\e[44m#{self}\e[0m"; end
   end
 
-  # ロードして有効化
+  # load modules and make enable
   String.class_eval do
     include ColorString
     include StyleString
