@@ -43,6 +43,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require "szx_color_string"
+
 puts "hello".red.bold
 puts "hello".red.bold.yellow_background
 puts "hello".red.underscore.blue_background
