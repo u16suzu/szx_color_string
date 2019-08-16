@@ -6,6 +6,7 @@ module SzxColorString
     def underscore;   "\e[4m#{self}\e[0m"; end
     def blink;        "\e[5m#{self}\e[0m"; end
   end
+
   module ColorString
     def black;   "\e[30m#{self}\e[0m"; end
     def red;     "\e[31m#{self}\e[0m"; end
@@ -16,6 +17,7 @@ module SzxColorString
     def cyan;    "\e[36m#{self}\e[0m"; end
     def while;   "\e[37m#{self}\e[0m"; end
   end
+
   module BackgroundColorString
     def red_background;    "\e[41m#{self}\e[0m"; end
     def green_background;  "\e[42m#{self}\e[0m"; end

@@ -5,6 +5,7 @@ class SzxColorStringTest < Minitest::Test
     refute_nil ::SzxColorString::VERSION
   end
 
+  # github actions test
   def test_it_does_something_useful
     assert false
   end
