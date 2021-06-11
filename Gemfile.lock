@@ -13,10 +13,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler (>= 2.2.10)
   minitest (~> 5.0)
   rake (~> 13.0)
   szx_color_string!
 
 BUNDLED WITH
-   1.17.1
+   2.2.10
